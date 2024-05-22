@@ -1,0 +1,23 @@
+@use "../../assets/styles/mixins" as mixin;
+
+.header {
+  position: relative;
+  padding: 10px 20px;
+  height: 58px;
+  background-color: var(--secondary);
+  box-shadow: var(--box-shadow-nav);
+  color: var(--fivetiary);
+ 
+  img {
+    width: 130px;
+    cursor: pointer;
+  }
+  a { 
+    text-decoration: none;
+    margin-right: 50px;
+    font-family: "Bruno Ace", sans-serif;
+    color: var(--fivetiary);
+
+
+  }
+}
