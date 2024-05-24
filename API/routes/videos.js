@@ -1,9 +1,9 @@
+const express = require("express");
 const { insertVideo, getAllVideo } = require("../controllers/video-controller");
 
-const router = require("express").Router
+const router = express.Router();
 
-
-router.post("/videos", insertVideo)
-router.get("/videos", getAllVideo)
+router.post("/", insertVideo);
+router.get("/", getAllVideo);
 
 module.exports = router;

@@ -79,7 +79,7 @@ export default function Register() {
   }
 
   return (
-    <div className="f-center container">
+    <div className="d-flex f-center container">
       <form onSubmit={handleSubmit(submit)}>
         <div className="d-flex flex-column mb-10">
           <label htmlFor="username" className="mb-10">

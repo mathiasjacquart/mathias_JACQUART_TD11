@@ -33,18 +33,3 @@ export async function signin(values) {
     console.error(error);
   }
 }
-
-// export async function uploadVideo(imgLink) { 
-//   try { 
-//     const response = await fetch (`${BASE_URL}/videos`, {
-//       method:"POST",
-//       headers: {
-//         "Content-Type" : "application/json",
-//       },
-//       body:JSON.stringify({img: imgLink })
-//     })
-    
-//   } catch (error) {
-//     console.error(error);
-//   }
-// }
